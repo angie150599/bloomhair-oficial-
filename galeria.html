@@ -30,7 +30,7 @@
   <script src="js/components.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      const imgs = [...BH.gallery, ...BH.gallery];
+      const imgs = BH.gallery;
       document.getElementById('masonry').innerHTML = imgs.map((src, i) => `
         <div class="masonry-item zoom"><img src="${src}" alt="Galería ${i+1}" loading="lazy"></div>
       `).join('');
