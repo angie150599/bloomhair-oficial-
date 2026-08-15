@@ -16,6 +16,7 @@ window.BH = {
     { label: 'GALERÍA', path: 'galeria.html' },
     { label: 'HISTORIA', path: 'historia.html' },
     { label: 'CLASES', path: 'clases.html' },
+    { label: 'PRESUPUESTO', path: 'quiz.html' },
   ],
 
   categories: [
@@ -33,13 +34,13 @@ window.BH = {
       description: 'Extensiones con banda adhesiva de larga duración, aplicación rápida y resultado natural.',
       image: 'https://customer-assets-rejwkqb3.emergentagent.net/job_bloomhair-weft/artifacts/qvtdl17p_image.webp',
     },
-   {
+    {
       slug: 'adesivas-invisibles',
       name: 'Adesivas Invisibles',
       subtitle: 'Adhesivo invisible ultra fino',
       description: 'La opción más discreta. Banda adhesiva prácticamente invisible para un acabado imperceptible.',
-      image: 'https://customer-assets-rejwkqb3.emergentagent.net/job_bloomhair-weft/artifacts/9h11h3hf_image.png',
-},
+      image: 'https://customer-assets-rejwkqb3.emergentagent.net/job_bloomhair-weft/artifacts/c5rl87m3_image.png',
+    },
   ],
 
   colors: [
@@ -110,3 +111,4 @@ window.BH.helpers = {
   },
   colorsFor: (slug) => window.BH.colors, // all 10 colors available in every category
 };
+
