@@ -35,6 +35,7 @@
           <div>
             <h4 class="mega-title">Recursos</h4>
             <ul class="mega-list">
+              <li><a href="quiz.html">Calcula tu presupuesto</a></li>
               <li><a href="historia.html">Nuestra Historia</a></li>
               <li><a href="clases.html">Clases y Formación</a></li>
               <li><a href="galeria.html">Galería</a></li>
